@@ -28,7 +28,7 @@ public class PlayerController : MonoBehaviour {
 		Collider other = collision.collider;
 		if (other.gameObject.CompareTag ("Player"))
 		{	
-			print("YEAH!");
+			Application.LoadLevel("Menu");
 		}
 	}
 }
